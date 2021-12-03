@@ -19,18 +19,18 @@ I acquired 4136 annotated bee images using OpenCV and pandas. The majority of th
 
 *Models*
 - Baseline
-- CNN
+- Simple CNN
 - VGG16 with imagenet weights
 
-**Final Neural Network Model using transfer learning with VGG16:** Imagenet weights 
-   - Training Accuracy:
-   - Training Loss:
-   - Val Accuracy:
-   - Val Loss:
+**Final Neural Network Model using transfer learning with VGG16:** Weighted with Imagenet
+   - Training Accuracy: 0.9888
+   - Training Loss: 0.0294
+   - Val Accuracy: 0.9070
+   - Val Loss: 0.5878
 
 **Holdout** 
-   - Accuracy:
-   - F1: 
+   - Accuracy: 0.9237
+   - F1: 0.9211
 
 ## Tools
 - OpenCV, Numpy and Pandas for data manipulation
